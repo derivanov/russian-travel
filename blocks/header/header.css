@@ -1,0 +1,15 @@
+@import url(__logo/header__logo.css);
+@import url(__lang-links/header__lang-links.css);
+@import url(__lang-link/header__lang-link.css);
+
+.header {
+  display: flex;
+  position: relative;
+  margin: 0 0 56px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+}
