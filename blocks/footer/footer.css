@@ -3,5 +3,12 @@
 @import url(__copyright/footer__copyright.css);
 
 .footer {
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .footer{
+    display: block;
   }
+}

@@ -6,7 +6,8 @@
 .cover {
   margin: 0 0 92px 0;
   text-align: center;
-  position: relative;
+  display: grid;
+  grid-template: 1fr;
 }
 
 @media screen and (max-width: 1024px) {
